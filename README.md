@@ -1,6 +1,14 @@
 # Hessian Influence
 
-A modular framework for computing influence functions using Hessian approximations in deep learning.
+Official code for the paper **"Better Hessians Matter: Studying the Impact of Curvature Approximations in Influence Functions"**.
+
+**Spotlight at NeurIPS 2026 Workshop on Mechanistic Interpretability**
+
+[[arXiv]](https://arxiv.org/abs/2509.23437) [[PDF]](https://arxiv.org/pdf/2509.23437)
+
+## Abstract
+
+Influence functions offer a principled way to trace model predictions back to training data, but their use in deep learning is hampered by the need to invert a large, ill-conditioned Hessian matrix. Approximations such as Generalised Gauss-Newton (GGN) and Kronecker-Factored Approximate Curvature (K-FAC) have been proposed to make influence computation tractable, yet it remains unclear how the departure from exactness impacts data attribution performance. In this paper, we investigate the effect of Hessian approximation quality on influence-function attributions in a controlled classification setting. Our experiments show that better Hessian approximations consistently yield better influence score quality. We further decompose the approximation steps for recent Hessian approximation methods and evaluate each step's influence on attribution accuracy.
 
 ## Overview
 
@@ -257,12 +265,13 @@ MIT License
 
 ## Citation
 
-If you use this library in your research, please cite:
+If you find this code useful in your research, please cite our paper:
 
 ```bibtex
-@software{hessian_influence,
-  title={Hessian Influence: A Framework for Influence Functions},
-  year={2024},
-  url={https://github.com/username/hessian-influence}
+@article{hong2025better,
+  title={Better Hessians Matter: Studying the Impact of Curvature Approximations in Influence Functions},
+  author={Hong, Steve and Eschenhagen, Runa and Mlodozeniec, Bruno and Turner, Richard},
+  journal={arXiv preprint arXiv:2509.23437},
+  year={2025}
 }
 ```
