@@ -2,7 +2,7 @@
 
 Official code for the paper **"Better Hessians Matter: Studying the Impact of Curvature Approximations in Influence Functions"**.
 
-**Spotlight at NeurIPS 2026 Workshop on Mechanistic Interpretability**
+**Spotlight at NeurIPS 2025 Workshop on Mechanistic Interpretability**
 
 [[arXiv]](https://arxiv.org/abs/2509.23437) [[PDF]](https://arxiv.org/pdf/2509.23437)
 
